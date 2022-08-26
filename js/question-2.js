@@ -9,8 +9,8 @@ function createHTML (content) {
             break
         }
         resultContainer.innerHTML+= `<div class="result">
-         Name: ${content[i].name} </br>
-         Rating: ${content[i].rating} </br>
+         Name: ${content[i].name} <br>
+         Rating: ${content[i].rating} <br>
          Number of tags: ${content[i].tags.length}
         </div>`
     }
