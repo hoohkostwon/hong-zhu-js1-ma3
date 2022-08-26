@@ -3,6 +3,7 @@ const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=
 const resultContainer = document.querySelector (".results")
 
 function createHTML (content) {
+    console.log (content);
     resultContainer.innerHTML="";
     for (let i=0; i< content.length; i++){
         if (i===8) {
